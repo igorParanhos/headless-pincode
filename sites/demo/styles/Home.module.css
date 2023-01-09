@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.input {
+  height: 40px;
+  width: 40px;
+  font-size: 32px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 4px;
+}

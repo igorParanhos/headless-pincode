@@ -1,0 +1,19 @@
+{
+  "name": "pinx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:lib": "npm run build:watch -w ./packages/pinx",
+    "dev:demo": "npm run dev -w ./sites/demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/pinx",
+    "sites/demo"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
